@@ -1,0 +1,16 @@
+git status = anna nykyinen tila
+git add filename = lisää tiedosto
+git add . --all = lisää kaikki
+
+git commit -m "commitin nimi (eli muutokset tiivistettynä)"
+git push
+
+gitk --all = avaa graafisen käyttöliittymän
+git reset --hard = poistaa kaikki muutokset
+git checkout commitinkoodi = muuttaa vanhaan versioon, commitinkoodin saa gitk --allista klikkaamalla committia. Se on pitkä numerosarja
+
+
+
+git clone = hakee kaiken koodin
+git pull = hakee muutokset (kun jo kloonattu)
+
